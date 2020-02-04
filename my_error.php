@@ -9,7 +9,7 @@
 <body>
 <?php
 
-function inverse($x) {
+function countDown($x) {
     if (!$x) {
         throw new Exception('Division by zero.');
     }
@@ -17,7 +17,7 @@ function inverse($x) {
 }
 
 try {
-    echo inverse(0) . "\n";
+    echo countDown(0) . "\n";
 }
 
 catch (Exception $e) {
